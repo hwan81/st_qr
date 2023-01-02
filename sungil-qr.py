@@ -27,6 +27,7 @@
 #
 
 import cv2
+imrpot streamlit as st
 #import pyzbar.pyzbar as pyzbar
 
 try:
