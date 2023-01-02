@@ -49,15 +49,11 @@ try:
                 #
                 #print(barcode)
 
-            if cv2.waitKey(1) == 27:
-                break
+            # if cv2.waitKey(1) == 27:
+            #     break
 
         else:
             print('error')
             break
 except Exception as e:
     print(e, 'errorTT')
-finally:
-    cap.release()
-    cv2.destroyAllWindows()
-
