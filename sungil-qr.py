@@ -31,7 +31,7 @@ import streamlit as st
 #import pyzbar.pyzbar as pyzbar
 
 try:
-    cap = cv2.VideoCapture(0)
+    cap = cv2.VideoCapture(1)
 
     while cap.isOpened():
         result, frame = cap.read()
