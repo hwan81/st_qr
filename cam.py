@@ -1,8 +1,5 @@
 import cv2
 import pyzbar.pyzbar as pyzbar
-import time
-import streamlit as st
-
 
 try:
     cap = cv2.VideoCapture(0)
