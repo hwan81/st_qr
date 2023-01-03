@@ -12,9 +12,6 @@ def callback(frame):
 
 webrtc_streamer(key="example", video_frame_callback=callback)
 
-image = webrtc_streamer(key= "ajosjidoijqoajsdoinoufjhoijpsd", video_transformer_factory=VideoTransformer)
-
-
 
 
 
