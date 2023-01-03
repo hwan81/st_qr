@@ -34,7 +34,7 @@ import cv2
 import numpy as np
 
 image = st.camera_input("Take a picture")
-
+st.write('image start')
 if image is not None:
     st.write("image capturing")
     st.image(image)
