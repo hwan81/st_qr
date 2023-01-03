@@ -11,7 +11,8 @@ class VideoTransformer(VideoTransformerBase):
         return img
 
 
-webrtc_streamer(key= key, video_transformer_factory=VideoTransformer)
+image = webrtc_streamer(key= "ajosjidoijqoajsdoinoufjhoijpsd", video_transformer_factory=VideoTransformer)
+
 
 
 
