@@ -2,3 +2,5 @@ streamlit-camera-input-live
 opencv-python-headless
 numpy
 streamlit-webrtc
+streamlit
+av
