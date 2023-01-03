@@ -31,6 +31,7 @@ import streamlit as st
 #import pyzbar.pyzbar as pyzbar
 import streamlit as st
 import cv2
+import numpy as np
 
 image = st.camera_input("Take a picture")
 
