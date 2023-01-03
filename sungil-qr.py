@@ -36,12 +36,13 @@ import numpy as np
 image = st.camera_input("Take a picture")
 
 if image is not None:
+    st.write("image capturing")
     st.image(image)
     bytes_data = image.getvalue()
     cv2_img = cv2.imdecode(np.frombuffer(bytes_data, np.uint8), cv2.IMREAD_COLOR)
 
     detector = cv2.QRCodeDetector()
-
+    st.write(detector)
     data, bbox, straight_qrcode = detector.detectAndDecode(cv2_img)
 
     if data:
