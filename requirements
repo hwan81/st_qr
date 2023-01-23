@@ -1,2 +1,5 @@
+streamlit-camera-input-live
+streamlit_qrcode_scanner
 opencv-python-headless
 pyzbar.pyzbar
+gspread
